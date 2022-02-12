@@ -25,7 +25,7 @@ This is my solution to the [Stats preview card component challenge on Frontend M
 
 ### Links
 
-- Live Site URL: [Solution Hosted using GitHub Pages](https://marvin-figueroa.github.io/nft-preview-card-component/)
+- Live Site URL: [Solution Hosted using GitHub Pages](https://marvin-figueroa.github.io/stats-preview-card-component/)
 
 ### Built with
 
