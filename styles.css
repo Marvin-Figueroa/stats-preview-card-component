@@ -81,6 +81,7 @@ body {
 .card__stats {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 2.4rem;
 }
 
@@ -95,45 +96,49 @@ body {
   text-transform: uppercase;
   font-family: "Lexend Deca", sans-serif;
   color: hsla(0, 0%, 100%, 0.6);
-  font-size: 1.2rem;
 }
 
 @media screen and (min-width: 768px) {
   .card {
     display: flex;
     flex-direction: row-reverse;
-    max-width: 700px;
-    border-radius: 8px;
+    min-width: 700px;
+    max-width: 800px;
+    border-radius: 10px;
+  }
+
+  .card__image {
+    object-fit: cover;
+    /* object-position: center; */
   }
 
   .card__text-content {
     text-align: left;
-    padding: 3.6rem;
+    padding: 4rem;
     flex-basis: 50%;
-  }
-
-  .card__title {
-    font-size: 2rem;
-  }
-  .card__description {
-    font-size: 1.2rem;
-  }
-
-  .stat-heading {
-    font-size: 1.4rem;
-    margin-bottom: 0.2rem;
-  }
-
-  .stat-text {
-    font-size: 0.8rem;
   }
 
   .card__image-container {
     flex-basis: 50%;
   }
 
+  .card__title {
+    font-size: 2.8rem;
+  }
+  .card__description {
+    margin-bottom: 5rem;
+  }
+
+  .stat-heading {
+    font-size: 1.6rem;
+  }
+
+  .stat-text {
+    font-size: 1rem;
+  }
+
   .card__stats {
     flex-direction: row;
-    gap: 3rem;
+    justify-content: flex-start;
   }
 }
